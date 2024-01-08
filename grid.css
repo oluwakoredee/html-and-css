@@ -1,0 +1,28 @@
+body{
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    justify-items: start;
+    align-items: center;
+}
+.first{
+    width: 20rem;
+    background-color: aqua;
+}
+.second{
+    width: 20rem;
+    background-color: burlywood;
+}
+.third{
+    width: 20rem;
+    background-color: pink;
+}
+.fourth{
+    width: 20rem;
+    background-color: red;
+}
+.fifth{
+    width: 20rem;
+    background-color: darkseagreen;
+}
